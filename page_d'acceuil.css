@@ -1,0 +1,230 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  background-color: #1f1f1f;
+}
+
+/* ----------------------------------------HEADER---------------------------------------- */
+
+header {
+  background-color: #fac900;
+  width: 100%;
+  height: 8rem;
+  display: flex;
+}
+
+.droite {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem 0.5rem 0;
+}
+
+/* ----------------------------------------HAUT HEADER---------------------------------------- */
+
+.haut {
+  display: flex;
+  justify-content: flex-end;
+  height: 50%;
+}
+
+.fa-circle-user {
+  font-size: 2rem;
+  color: #1f1f1f;
+}
+
+/* ----------------------------------------BAS HEADER---------------------------------------- */
+
+.bas {
+  height: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 1rem;
+}
+
+.categorie {
+  width: 80%;
+  min-width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.categorie > a {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+.search {
+  background-color: #1f1f1f;
+  border-radius: 20;
+  width: 12rem;
+  min-width: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.search > input {
+  background-color: #1f1f1f;
+  border: none;
+  width: 6rem;
+  height: 2rem;
+}
+
+.fa-magnifying-glass,
+.fa-bars,
+.search > input {
+  color: white;
+}
+
+/* ----------------------------------------MAIN---------------------------------------- */
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem 0 2rem;
+  height: 1202.5px;
+}
+
+/* ----------------------------------------MAIN HAUT----------------------------------- */
+
+.main1 {
+  display: flex;
+  width: 100%;
+  height: 40%;
+  gap: ;
+}
+
+/* ----------------------------------------MAIN HAUT GAUCHE---------------------------- */
+
+.main1-gauche {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 37%;
+  height: 100%;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.vote {
+  color: white;
+  background-color: #0e0e0e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  gap: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.vote > div {
+  position: absolute;
+  left: 20px;
+}
+
+.main1-gauche-bas {
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  gap: 2rem;
+}
+
+.windows {
+  background-color: #fac900;
+  border: none;
+  border-radius: 10px;
+  width: 12rem;
+  height: 2.5rem;
+  box-shadow: 2px 2px 2px 1px rgba(225, 181, 0, 0.1);
+}
+
+.mac {
+  background-color: #6db4fd;
+  border: none;
+  border-radius: 10px;
+  width: 12rem;
+  height: 2.5rem;
+  box-shadow: 2px 2px 2px 1x rgba(98 162 228 0.1);
+}
+
+.emoji-repo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.emoji-repo > img {
+  width: 75%;
+}
+
+/* ----------------------------------------MAIN HAUT DROITE---------------------------- */
+
+.main1-droite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 63%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.news {
+  color: white;
+  display: flex;
+  gap: 3rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.news > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.new-stuff,
+.new-map,
+.dinosaure {
+  border-radius: 15px;
+}
+
+/* ----------------------------------------MAIN MID----------------------------------- */
+
+.main2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 13.3%;
+  padding-top: 3rem;
+}
+
+.main2 > div {
+  background-color: #fac900;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  width: 100%;
+  height: 97%;
+  padding: 0 1rem 0 1rem;
+}
+
+/* ----------------------------------------MAIN BAS----------------------------------- */
