@@ -4,6 +4,13 @@ body {
   background-color: #1f1f1f;
 }
 
+/* ----------------------------------------FONT---------------------------------------- */
+
+.player2p {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
 /* ----------------------------------------HEADER---------------------------------------- */
 
 header {
@@ -50,11 +57,6 @@ header {
   justify-content: space-evenly;
 }
 
-.categorie > a {
-  color: #1f1f1f;
-  text-decoration: none;
-}
-
 .search {
   background-color: #1f1f1f;
   border-radius: 20;
@@ -85,7 +87,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 1rem 2rem 0 2rem;
-  height: 1202.5px;
+  height: 90rem;
 }
 
 /* ----------------------------------------MAIN HAUT----------------------------------- */
@@ -94,7 +96,6 @@ main {
   display: flex;
   width: 100%;
   height: 40%;
-  gap: ;
 }
 
 /* ----------------------------------------MAIN HAUT GAUCHE---------------------------- */
@@ -181,12 +182,16 @@ main {
   width: 63%;
   height: 100%;
   border-radius: 10px;
-  padding: 0.5rem 0.5rem 0 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border: 3px solid #0e0e0e;
 }
 
 .news {
   color: white;
   display: flex;
+  align-items: center;
+  width: 100%;
+  height: 92%;
   gap: 3rem;
   overflow-x: auto;
   scrollbar-width: none;
@@ -196,12 +201,10 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
+  gap: 2rem;
 }
 
-.new-stuff,
-.new-map,
-.dinosaure {
+.nouveauté > img {
   border-radius: 15px;
 }
 
@@ -228,3 +231,128 @@ main {
 }
 
 /* ----------------------------------------MAIN BAS----------------------------------- */
+
+.main3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+}
+
+iframe {
+  width: 790px;
+  height: 385px;
+}
+
+/* ----------------------------------------FOOTER----------------------------------- */
+
+footer {
+  background-color: #6db4fd;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 45rem;
+}
+
+.footer1 {
+  display: flex;
+  width: 100%;
+  height: 60%;
+}
+
+.logo {
+  width: 20%;
+}
+
+.link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.categorie-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+  height: 100%;
+}
+
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+  height: 100%;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 25%;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 100%;
+  gap: 10px;
+}
+
+.newsletter > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+  height: 3rem;
+  width: 23rem;
+  border-radius: 20px;
+}
+
+.email {
+  color: white;
+  background-color: #1f1f1f;
+  width: 15rem;
+  height: 1.5rem;
+}
+
+.submit {
+  width: 6rem;
+  height: 1.88rem;
+  color: white;
+  background-color: #1f1f1f;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+
+.fa-x-twitter,
+.fa-facebook-f,
+.fa-instagram,
+.fa-youtube,
+.fa-twitch {
+  font-size: 2rem;
+  color: #1f1f1f;
+}
+
+.footer3 {
+  width: 100%;
+  position: relative;
+}
+
+.footer3 > div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  position: absolute;
+  left: 15rem;
+}
