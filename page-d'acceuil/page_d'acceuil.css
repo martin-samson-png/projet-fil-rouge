@@ -366,6 +366,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: #0e0e0e solid 2px;
   background-color: #fac900;
   height: 3rem;
   width: 23rem;
