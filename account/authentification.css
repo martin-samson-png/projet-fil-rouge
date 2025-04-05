@@ -57,6 +57,7 @@ header {
   display: flex;
   justify-content: flex-end;
   height: 50%;
+  padding-right: 1%;
 }
 
 .fa-circle-user {
