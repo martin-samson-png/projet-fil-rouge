@@ -9,13 +9,13 @@ body {
 @font-face {
   font-family: "PressStart2P";
   src: local("PressStart2P"),
-    url(font/Press_Start_2P/PressStart2P-Regular.ttf) format(TrueType);
+    url(../font/Press_Start_2P/PressStart2P-Regular.ttf) format(TrueType);
 }
 
 @font-face {
   font-family: "Lexend Deca";
   src: local("Lexend Deca"),
-    url(font/Lexend_Deca/LexendDeca-VariableFont_wght.ttf) format(TrueType);
+    url(../font/Lexend_Deca/LexendDeca-VariableFont_wght.ttf) format(TrueType);
 }
 
 .lexend {
@@ -36,7 +36,15 @@ header {
   width: 100%;
   height: 8rem;
   display: flex;
+  position: relative;
 }
+
+.logo1 {
+  position: absolute;
+  left: 2%;
+}
+
+/* ----------------------------------------HAUT HEADER---------------------------------------- */
 
 .droite {
   width: 100%;
@@ -44,8 +52,6 @@ header {
   flex-direction: column;
   padding: 0.5rem 1rem 0.5rem 0;
 }
-
-/* ----------------------------------------HAUT HEADER---------------------------------------- */
 
 .haut {
   display: flex;
@@ -66,6 +72,7 @@ header {
   justify-content: flex-end;
   align-items: flex-end;
   padding-right: 1rem;
+  flex: 1;
 }
 
 .categorie {
@@ -100,195 +107,74 @@ header {
   color: white;
 }
 
-/* ----------------------------------------MAIN---------------------------------------- */
+/* ----------------------------------------MAIN----------------------------------- */
 
 main {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem 2rem 0 2rem;
-  height: 90rem;
   font-family: Lexend Deca;
   font-size: 18px;
-}
-
-/* ----------------------------------------MAIN HAUT----------------------------------- */
-
-.main1 {
-  display: flex;
-  width: 100%;
-  height: 40%;
-}
-
-/* ----------------------------------------MAIN HAUT GAUCHE---------------------------- */
-
-.main1-gauche {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 37%;
-  height: 100%;
-  padding: 0.5rem 0.5rem 0 0.5rem;
-}
-
-.vote {
-  background-color: #6db4fd;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 50%;
-  gap: 10px;
-  border-radius: 10px;
-  position: relative;
-}
-
-.vote > div {
-  position: absolute;
-  left: 20px;
-}
-
-.vote-submit {
-  border: none;
-  border-radius: 5px;
-  font-family: Lexend Deca;
-  width: 6rem;
-  height: 1.5rem;
-}
-
-.main1-gauche-bas {
-  display: flex;
-  width: 100%;
-  height: 50%;
-}
-
-.download {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-  height: 100%;
-  gap: 2rem;
-}
-
-.windows {
-  background-color: #fac900;
-  border: none;
-  border-radius: 10px;
-  width: 12rem;
-  height: 2.5rem;
-  box-shadow: 2px 2px 2px 1px rgba(225, 181, 0, 0.1);
-}
-
-.mac {
-  background-color: #6db4fd;
-  border: none;
-  border-radius: 10px;
-  width: 12rem;
-  height: 2.5rem;
-  box-shadow: 2px 2px 2px 1x rgba(98 162 228 0.1);
-}
-
-.emoji-repo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: 100%;
-}
-
-.emoji-repo > img {
-  width: 75%;
-}
-
-/* ----------------------------------------MAIN HAUT DROITE---------------------------- */
-
-.main1-droite {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 63%;
-  height: 100%;
-  border-radius: 10px;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-}
-
-.news {
   color: white;
   display: flex;
-  align-items: center;
-  width: 100%;
-  height: 92%;
-  gap: 3rem;
-  overflow-x: auto;
-  scrollbar-width: none;
-}
-
-.nouveauté {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-  animation-duration: 10s;
-  animation-delay: 3s;
-  animation-name: animations;
-  animation-iteration-count: infinite;
-}
-
-.nouveauté > img {
-  border-radius: 15px;
-}
-
-@keyframes animations {
-  0% {
-    transform: translateX(0);
-  }
-  33.3% {
-    transform: translateX(-70%);
-  }
-  66.6% {
-    transform: translateX(-140%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-/* ----------------------------------------MAIN MID----------------------------------- */
-
-.main2 {
-  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 13.3%;
-  padding-top: 3rem;
+  padding: 5% 0 5% 0;
 }
 
-.main2 > div {
-  background-color: #fac900;
+main > section {
+  background-color: #0b0b0b;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  border-radius: 10px;
-  width: 100%;
-  height: 97%;
-  padding: 0 1rem 0 1rem;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
 }
 
-/* ----------------------------------------MAIN BAS----------------------------------- */
-
-.main3 {
+.authentification1 {
+  width: 50%;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-  height: 40%;
+  padding-top: 5%;
 }
 
-iframe {
-  width: 790px;
-  height: 385px;
+.authentification2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 30%;
+  height: 12rem;
+  padding: 5rem 0 2rem 0;
+  gap: 2rem;
+}
+
+.authentification2 > a {
+  background-color: #fac900;
+  color: #0b0b0b;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 3rem;
+  border-radius: 5px;
+}
+
+.authentification3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 3rem;
+  padding-bottom: 5%;
+}
+
+.authentification3 > a {
+  color: #6db4fd;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  width: 15%;
 }
 
 /* ----------------------------------------FOOTER----------------------------------- */
@@ -297,8 +183,9 @@ footer {
   background-color: #6db4fd;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 98%;
   height: 45rem;
+  padding: 5% 0 0 2%;
 }
 
 /* ----------------------------------------FOOTER HAUT----------------------------------- */
@@ -309,8 +196,8 @@ footer {
   height: 60%;
 }
 
-.logo {
-  width: 20%;
+.logo2 {
+  width: 30%;
 }
 
 .link {
