@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "PressStart2P";
+  src: local("PressStart2P"),
+    url(../font/Press_Start_2P/PressStart2P-Regular.ttf) format(TrueType);
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  src: local("Lexend Deca"),
+    url(../font/Lexend_Deca/LexendDeca-VariableFont_wght.ttf) format(TrueType);
+}
+
+$font-lexend-deca: "Lexend Deca";
+$font-pressstart2p: "PressStart2P";
+
+$primary-color: #1f1f1f;
+$second-color: #fac900;
+$third-color: #6db4fd;
+$fourth-color: #0e0e0e;

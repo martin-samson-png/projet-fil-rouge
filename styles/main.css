@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "PressStart2P";
+  src: local("PressStart2P"), url(../font/Press_Start_2P/PressStart2P-Regular.ttf) format(TrueType);
+}
+@font-face {
+  font-family: "Lexend Deca";
+  src: local("Lexend Deca"), url(../font/Lexend_Deca/LexendDeca-VariableFont_wght.ttf) format(TrueType);
+}
+.bg-color-primary, main {
+  background-color: #1f1f1f;
+}
+
+.bg-color-secondary, .button-primary, header {
+  background-color: #fac900;
+}
+
+.bg-color-third, .button-secondary, footer {
+  background-color: #6db4fd;
+}
+
+.font-color-primary {
+  color: #0e0e0e;
+}
+
+.font-pressstart2p, header {
+  font-family: "PressStart2P";
+}
+
+.font-lexend-deca, main {
+  font-family: "Lexend Deca";
+}
+
+.border-radius, .button-secondary, .button-primary {
+  border-radius: 10px;
+}
+
+.border-none {
+  border: none;
+}
+
+.border {
+  border: #0e0e0e solid 2px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.animation {
+  animation-duration: 15s;
+  animation-delay: 2s;
+  animation-name: animations;
+  animation-iteration-count: infinite;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */

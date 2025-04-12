@@ -1,0 +1,77 @@
+@import "variables";
+
+.bg-color-primary {
+  background-color: $primary-color;
+}
+
+.bg-color-secondary {
+  background-color: $second-color;
+}
+
+.bg-color-third {
+  background-color: $third-color;
+}
+
+.font-color-primary {
+  color: $fourth-color;
+}
+
+.font-pressstart2p {
+  font-family: $font-pressstart2p;
+}
+
+.font-lexend-deca {
+  font-family: $font-lexend-deca;
+}
+
+.border-radius {
+  border-radius: 10px;
+}
+
+.border-none {
+  border: none;
+}
+
+.border {
+  border: $fourth-color solid 2px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.animation {
+  animation-duration: 15s;
+  animation-delay: 2s;
+  animation-name: animations;
+  animation-iteration-count: infinite;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  @extend .bg-color-secondary;
+  @extend .font-pressstart2p;
+}
+
+main {
+  @extend .bg-color-primary;
+  @extend .font-lexend-deca;
+}
+
+footer {
+  @extend .bg-color-third;
+}
+
+.button-primary {
+  @extend .bg-color-secondary;
+  @extend .border-radius;
+}
+
+.button-secondary {
+  @extend .bg-color-third;
+  @extend .border-radius;
+}
